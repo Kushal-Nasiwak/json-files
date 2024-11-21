@@ -1,0 +1,25 @@
+{
+    "webaccess_url" : "https://webaccess.nsk-cad.com/order_list.php",
+    "xpaths": {
+    
+        "受注一覧" : "//*[@id:'f-menus']/ul/li[4]/a",
+        "ビルダー名" : "//*[@id:'select2-search_builder_cd-container']",
+        "ビルダー名_input" : "/html/body/span/span/span[1]/input",
+        "海外事務" : "//*[@id:'select2-search_abroad_office_worker-container']",
+        "海外事務_input" : "/html/body/span/span/span[1]/input",
+        "案件番号" : "/html/body/div[2]/div[2]/div[2]/form/div/table[3]/tbody/tr/td[1]/input",
+        "物件番号" : "//*[@id:'f-search-box']/table[4]/tbody/tr/td[1]/input",
+        "工事番号" : "//*[@id:'f-search-box']/table[4]/tbody/tr/td[5]/input",
+        "発注番号" : "//*[@id:'f-search-box']/table[4]/tbody/tr/td[7]/input",
+        "確定納品日_1" : "/html/body/div[2]/div[2]/div[2]/form/div/table[5]/tbody/tr[1]/td[3]/input[1]",
+        "確定納品日_2" : "/html/body/div[2]/div[2]/div[2]/form/div/table[5]/tbody/tr[1]/td[3]/input[2]",    
+        "案件名_物件名" : "//*[@id:'f-search-box']/table[6]/tbody/tr/td[1]/input",
+        "出荷区分" : "/html/body/div[2]/div[2]/div[2]/form/div/table[6]/tbody/tr/td[3]/button",
+        "工場" : "/html/body/div[2]/div[2]/div[2]/form/div/table[6]/tbody/tr/td[5]/button",
+        "図面" : "/html/body/div[2]/div[2]/div[2]/form/div/table[7]/tbody/tr/td[3]/button",
+        "見積書" : "/html/body/div[2]/div[2]/div[2]/form/div/table[7]/tbody/tr/td[7]/button",
+        "検索" : "/html/body/div[2]/div[2]/div[2]/form/div/div/button[1]",
+        "リセット" : "/html/body/div[2]/div[2]/div[2]/form/div/div/button[2]",
+        "案件一覧のダウンロード" : "/html/body/div[2]/div[2]/div[2]/div[1]/a[1]"
+    }
+}
