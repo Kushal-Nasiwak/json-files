@@ -2,7 +2,7 @@
     "webaccess_url" : "https://webaccess.nsk-cad.com/order_list.php",
     "xpaths": {
     
-        "受注一覧" : "//*[@id:'f-menus']/ul/li[4]/a",
+        "受注一覧" : "/html/body/div[2]/div[1]/div/div/div/ul/li[4]/a",
         "ビルダー名" : "//*[@id:'select2-search_builder_cd-container']",
         "ビルダー名_input" : "/html/body/span/span/span[1]/input",
         "海外事務" : "//*[@id:'select2-search_abroad_office_worker-container']",
