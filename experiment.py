@@ -86,7 +86,7 @@ def read_excel_file(file_path):
 
 # Function to start the Excel check
 def Start_Excel_check():
-    print("We did it")
+    print("It works")
     
    
 
@@ -162,7 +162,7 @@ start_button = ttk.Button(root, text="START", width=10,command=Start_Excel_check
 start_button.pack(pady=10)
 
 # Footer
-footer_label = tk.Label(root, text="Nasiwak Services Pvt Ltd     v9.0.8", bg="#d6e0f0", fg="#333333")
+footer_label = tk.Label(root, text="Nasiwak Services Pvt Ltd     v9.0.0", bg="#d6e0f0", fg="#333333")
 footer_label.pack(side='bottom', pady=(5, 0))
 
 # Run the main event loop
