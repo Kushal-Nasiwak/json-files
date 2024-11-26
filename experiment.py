@@ -1,1 +1,2 @@
-version = "0.8.2"
+class Testing:
+  version = "0.8.2"
