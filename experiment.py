@@ -1,5 +1,4 @@
-from .Data_extrect import *
-
+from Data_extrect import *
 
 Ankens_bango_builder = {}
 # Function to clear placeholder text when user focuses on the entry widget
