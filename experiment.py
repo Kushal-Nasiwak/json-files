@@ -1,3 +1,6 @@
+from .Data_extrect import *
+
+
 Ankens_bango_builder = {}
 # Function to clear placeholder text when user focuses on the entry widget
 def clear_placeholder(event, entry, placeholder):
@@ -80,7 +83,23 @@ def read_excel_file(file_path):
 
 # Function to start the Excel check
 def Start_Excel_check():
-    print("No modules Imported")
+    print("Executing the Program")
+    global Ankens_bango_builder
+    print("Anken Dictionary:")
+    print(Ankens_bango_builder)
+    text_area.delete(1.0, tk.END)  # Clear the text area
+    text_area.insert(tk.END, f"{'Anken Bango':^30} {'Builder ID':^30} {'Status':^20}\n")
+    text_area.insert(tk.END, "-" * 80 + "\n")  # Divider line
+    for Ankens,Builder in Ankens_bango_builder.items():
+        try:
+            Excel_check(str(Ankens),str(Builder))
+        except Exception as e:
+            # If an error occurs, display with a red cross
+            text_area.insert(tk.END, f"{Ankens:^30} {Builder:^30} {'❌':^20}\n")
+            print(f"error:{e}")
+        else:
+            text_area.insert(tk.END, f"{Ankens:^30} {Builder:^30} {'✅':^20}\n")
+    Ankens_bango_builder.clear()
     
    
 
