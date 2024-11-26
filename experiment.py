@@ -1,8 +1,10 @@
 import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog, messagebox
+import pandas as pd  
 
 
+Ankens_bango_builder = {}
 # Function to clear placeholder text when user focuses on the entry widget
 def clear_placeholder(event, entry, placeholder):
     if entry.get() == placeholder:
