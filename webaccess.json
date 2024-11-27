@@ -9,7 +9,7 @@
         "海外事務_input" : "/html/body/span/span/span[1]/input",
         "案件番号" : "search_project_cd",
         "物件番号" : "//*[@id:'f-search-box']/table[4]/tbody/tr/td[1]/input",
-        "工事番号" : "//*[@id:'f-search-box']/table[4]/tbody/tr/td[5]/input",
+        "工事番号" : "search_construction_no",
         "発注番号" : "//*[@id:'f-search-box']/table[4]/tbody/tr/td[7]/input",
         "確定納品日_1" : "/html/body/div[2]/div[2]/div[2]/form/div/table[5]/tbody/tr[1]/td[3]/input[1]",
         "確定納品日_2" : "/html/body/div[2]/div[2]/div[2]/form/div/table[5]/tbody/tr[1]/td[3]/input[2]",    
