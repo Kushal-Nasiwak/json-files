@@ -7,7 +7,7 @@
         "ビルダー名_input" : "/html/body/span/span/span[1]/input",
         "海外事務" : "//*[@id:'select2-search_abroad_office_worker-container']",
         "海外事務_input" : "/html/body/span/span/span[1]/input",
-        "案件番号" : "/html/body/div[2]/div[2]/div[2]/form/div/table[3]/tbody/tr/td[1]/input",
+        "案件番号" : "search_project_cd",
         "物件番号" : "//*[@id:'f-search-box']/table[4]/tbody/tr/td[1]/input",
         "工事番号" : "//*[@id:'f-search-box']/table[4]/tbody/tr/td[5]/input",
         "発注番号" : "//*[@id:'f-search-box']/table[4]/tbody/tr/td[7]/input",
@@ -21,5 +21,6 @@
         "検索" : "/html/body/div[2]/div[2]/div[2]/form/div/div/button[1]",
         "リセット" : "/html/body/div[2]/div[2]/div[2]/form/div/div/button[2]",
         "案件一覧のダウンロード" : "/html/body/div[2]/div[2]/div[2]/div[1]/a[1]"
+        
     }
 }
